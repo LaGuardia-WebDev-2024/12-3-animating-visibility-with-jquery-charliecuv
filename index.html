@@ -6,7 +6,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1 id="snake-h1" style="display: none">Snake</h1>
+    <button id="button1">Hide</button>
+    <button id="button2">Slide</button>
+    <button id="button3">Fade In</button>
+    <button id="button4">Surprise</button>
+
+    <h1 id="snake-h1">Snake</h1>
     <img
       id="snake-pic"
       src="https://upload.wikimedia.org/wikipedia/commons/4/40/Chrysopelea_taprobanica.jpg"
@@ -16,7 +21,28 @@
     <script>
       
       var $pic = $("#snake-pic");
-      $pic.hide();
+      var $h1 = $("#snake-h1");
+
+      // ======================== Button #1
+      $("#button1").click(function () {
+        $pic.hide();
+        $h1.hide();
+      });
+
+      // ======================== Button #2
+      $("#button2").click(function () {
+     
+      });
+
+      // ======================== Button #3
+      $("#button3").click(function () {
+    
+      });
+
+       // ======================== Button #3
+      $("#button4").click(function () {
+    
+      });
 
 
     </script>
