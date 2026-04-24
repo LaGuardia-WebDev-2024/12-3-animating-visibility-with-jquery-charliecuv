@@ -6,10 +6,18 @@
 
 ## Directions
 
-### Step #1 - Slide the snake <br>
+### Step #1 - Slide Button <br>
 
-This webpage includes an image of a rather scary snake, but it's hidden right now. In this step, use jQuery's `slideDown()` function to animate the snake coming down from the top of the page. Creepy!
+Use jQuery's `slideDown()` method to animate the snake image and text coming down from the top of the page when the slide button is pressed.
 <br><br>
-### Step #2 - Announce the snake <br>
 
-In this step, you'll announce the snake once he's slid down from the top. You can do that by adding two parameters to slideDown, an amount to delay and a post-animation callback function. In that callback function, use jQuery to get the `<h1>` to appear.
+### Step #2 - Fade In Button <br>
+
+Use jQuery's `fadeIn()` method to animate the snake image and text fading in when the Fade In button is pressed.
+<br><br>
+
+### Step #3 - Surprise Button <br>
+
+Use a jQuery's method of your choise to animate the snake image and text when the Surprise button is pressed.
+<br><br>
+
